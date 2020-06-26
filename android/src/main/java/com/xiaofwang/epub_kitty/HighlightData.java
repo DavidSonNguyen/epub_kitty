@@ -1,8 +1,9 @@
 package com.xiaofwang.epub_kitty;
 
-import com.folioreader.model.HighLight;
 
 import java.util.Date;
+
+import folioreader.model.HighLight;
 
 /**
  * Class contain data structure for highlight data. If user want to

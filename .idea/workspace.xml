@@ -1,45 +1,301 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="epub_reader.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/epub_reader.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="c7a9bb9d-2a4d-4a2f-b16c-cc2e1403ea35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/andada/Andada-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/andada/Andada-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/andada/Andada-Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/andada/Andada-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lato/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lato/Lato-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lato/Lato-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lato/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lora/Lora-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lora/Lora-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lora/Lora-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/lora/Lora-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/raleway/Raleway-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/raleway/Raleway-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/raleway/Raleway-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/fonts/raleway/Raleway-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/Bridge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/jsface.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/rangefix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/rangy-classapplier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/rangy-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/rangy-highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/rangy-serializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/js/readium-cfi.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/AppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/FolioReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/Font.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/mediaoverlay/MediaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/mediaoverlay/MediaControllerCallbacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/DisplayUnit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/HighLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/HighlightImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/TOCLinkWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/dictionary/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/dictionary/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/dictionary/DictionaryResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/dictionary/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/dictionary/Pronunciations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/dictionary/Senses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/dictionary/Wikipedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/AnchorIdEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/MediaOverlayHighlightStyleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/MediaOverlayPlayPauseEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/MediaOverlaySpeedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/ReloadDataEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/RewindIndexEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/UpdateHighlightEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/event/WebViewPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/locators/ReadLocator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/locators/SearchLocator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/media_overlay/OverlayItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/sqlite/DbAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/sqlite/DictionaryTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/sqlite/FolioDatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/model/sqlite/HighLightTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/network/QualifiedTypeConverterFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/network/R2StreamerApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/network/TLSSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/activity/ContentHighlightActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/activity/FolioActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/activity/FolioActivityCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/activity/SearchActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/DictionaryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/FolioPageFragmentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/FontAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/HighlightAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/ListViewType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/OnItemClickListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/SearchAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/TOCAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/adapter/ViewHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/BaseMvpView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/DictionaryCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/DictionaryTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/HtmlTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/HtmlTaskCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/HtmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/OnSaveHighlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/SaveReceivedHighlightTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/WikipediaCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/base/WikipediaTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/fragment/DictionaryFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/fragment/FolioPageFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/fragment/HighlightFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/fragment/MediaControllerFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/fragment/TableOfContentFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/ConfigBottomSheetDialogFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/DirectionalViewpager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/FolioAppBarLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/FolioSearchView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/FolioWebView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/LoadingView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/MediaControllerCallback.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/StyleableTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/UnderlinedTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/VerticalSeekbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/ui/view/WebViewPager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/AppUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/HighlightUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/MultiLevelExpIndListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/ObjectMapperSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/OnHighlightListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/ProgressDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/ReadLocatorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/SMILParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/ScreenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/SharedPreferenceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/StyleableTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/util/UiUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/folioreader/viewmodels/SearchViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/disappear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/enter_from_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/enter_from_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/exit_to_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/exit_to_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/fadein.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/fadeout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/grow_from_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/grow_from_bottomleft_to_topright.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/grow_from_bottomright_to_topleft.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/grow_from_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/grow_from_topleft_to_bottomright.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/grow_from_topright_to_bottomleft.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/pump_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/pump_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/shrink_from_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/shrink_from_bottomleft_to_topright.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/shrink_from_bottomright_to_topleft.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/shrink_from_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/shrink_from_topleft_to_bottomright.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/shrink_from_topright_to_bottomleft.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/slide_down.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/slide_in_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/slide_out_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/anim/slide_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-hdpi/ic_format_font_black_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-hdpi/ic_format_font_black_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-mdpi/ic_format_font_black_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-mdpi/ic_format_font_black_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/edit_note.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/ic_format_font_black_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/ic_format_font_black_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/icon_moon_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/icon_moon_sel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/icon_sun_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/icon_sun_sel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/seekbar_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xxhdpi/ic_format_font_black_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xxhdpi/ic_format_font_black_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xxxhdpi/ic_format_font_black_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xxxhdpi/ic_format_font_black_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/blue_border_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/btn_contents_highlights.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/btn_moon_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/btn_sun_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/content_highlight_back_selector_night_mode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/content_highlight_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/dottet_line.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/font_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/green_border_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_close_green_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_fast_forward.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_fast_rewind.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_format_underlined.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_highlight_delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_minus_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_minus_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_offline_gray_48dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_offline_gray_layer_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_pause.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_play.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_plus_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_plus_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/ic_volume_gray_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/icon_font.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/icons_sroll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/man_speech_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/note_edittext_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/popup.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/red_border_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/round_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/search_thumb_vertical.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/shape_highlight_blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/shape_highlight_green.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/shape_highlight_pink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/shape_highlight_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/style_back_color_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/style_text_color_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/thumb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/drawable/transparent_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/action_item_horizontal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/action_item_vertical.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/activity_content_highlight.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/dialog_edit_notes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/folio_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/folio_page_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/fragment_contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/fragment_highlight_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/horiz_separator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/item_dictionary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/item_search_empty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/item_search_failure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/item_search_init.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/item_search_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/item_search_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/item_search_pagination_in_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/layout_dictionary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/layout_wikipedia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/popup_horizontal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/popup_vertical.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/progress_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/row_font.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/row_highlight.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/row_table_of_contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/text_selection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/view_audio_player.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/view_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/view_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/view_webview_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/menu/menu_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values-cs/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values-pt-rBR/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values-ru/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values-sk/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values/day_theme.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values/night_theme.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/xml/searchable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/xiaofwang/epub_kitty/HighlightData.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/xiaofwang/epub_kitty/HighlightData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1drECY540G7aFILmuAWFy6iVoLn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7a9bb9d-2a4d-4a2f-b16c-cc2e1403ea35" name="Default Changelist" comment="" />
+      <created>1593174684708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593174684708</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593174727677">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1593174727677" />
   </component>
 </project>

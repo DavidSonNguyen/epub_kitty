@@ -18,22 +18,23 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.DialogFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.folioreader.Config;
-import com.folioreader.Constants;
-import com.folioreader.R;
-import com.folioreader.model.dictionary.Dictionary;
-import com.folioreader.model.dictionary.Wikipedia;
-import com.folioreader.ui.adapter.DictionaryAdapter;
-import com.folioreader.ui.base.DictionaryCallBack;
-import com.folioreader.ui.base.DictionaryTask;
-import com.folioreader.ui.base.WikipediaCallBack;
-import com.folioreader.ui.base.WikipediaTask;
 import com.folioreader.util.AppUtil;
-import com.folioreader.util.UiUtil;
+import com.xiaofwang.epub_kitty.R;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+
+import folioreader.Config;
+import folioreader.Constants;
+import folioreader.model.dictionary.Dictionary;
+import folioreader.model.dictionary.Wikipedia;
+import folioreader.ui.adapter.DictionaryAdapter;
+import folioreader.ui.base.DictionaryCallBack;
+import folioreader.ui.base.DictionaryTask;
+import folioreader.ui.base.WikipediaCallBack;
+import folioreader.ui.base.WikipediaTask;
+import folioreader.util.UiUtil;
 
 /**
  * @author gautam chibde on 4/7/17.

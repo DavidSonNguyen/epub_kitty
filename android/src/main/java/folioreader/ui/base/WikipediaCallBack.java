@@ -1,6 +1,7 @@
 package folioreader.ui.base;
 
-import com.folioreader.model.dictionary.Wikipedia;
+
+import folioreader.model.dictionary.Wikipedia;
 
 /**
  * @author gautam chibde on 4/7/17.

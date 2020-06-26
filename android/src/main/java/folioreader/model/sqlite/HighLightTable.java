@@ -4,13 +4,14 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.text.TextUtils;
 import android.util.Log;
-import com.folioreader.Constants;
-import com.folioreader.model.HighLight;
-import com.folioreader.model.HighlightImpl;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+
+import folioreader.Constants;
+import folioreader.model.HighLight;
+import folioreader.model.HighlightImpl;
 
 @SuppressWarnings("PMD.AvoidDuplicateLiterals")
 public class HighLightTable {

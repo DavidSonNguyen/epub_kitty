@@ -1,12 +1,13 @@
 package folioreader.ui.activity;
 
 import android.graphics.Rect;
-import com.folioreader.Config;
 import com.folioreader.model.DisplayUnit;
 import com.folioreader.model.locators.ReadLocator;
 import com.folioreader.ui.activity.FolioActivity;
 
 import java.lang.ref.WeakReference;
+
+import folioreader.Config;
 
 public interface FolioActivityCallback {
 

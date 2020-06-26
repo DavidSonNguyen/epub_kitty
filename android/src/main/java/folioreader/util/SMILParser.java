@@ -1,10 +1,11 @@
 package folioreader.util;
 
-import com.folioreader.model.media_overlay.OverlayItems;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
 import java.util.List;
+
+import folioreader.model.media_overlay.OverlayItems;
 
 /**
  * @author gautam chibde on 20/6/17.

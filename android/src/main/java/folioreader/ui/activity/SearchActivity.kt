@@ -12,27 +12,27 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.ImageButton
+import android.widget.Toolbar
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
-import androidx.appcompat.widget.Toolbar
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.folioreader.Config
-import com.folioreader.R
 import com.folioreader.model.locators.SearchLocator
 import com.folioreader.ui.adapter.ListViewType
 import com.folioreader.ui.adapter.OnItemClickListener
 import com.folioreader.ui.adapter.SearchAdapter
 import com.folioreader.ui.view.FolioSearchView
 import com.folioreader.util.AppUtil
-import com.folioreader.util.UiUtil
 import com.folioreader.viewmodels.SearchViewModel
-import kotlinx.android.synthetic.main.activity_search.*
+import com.xiaofwang.epub_kitty.R
+import folioreader.Config
+import folioreader.util.UiUtil
 import java.lang.reflect.Field
+import kotlinx.android.synthetic.main.activity_search.*
 
 class SearchActivity : AppCompatActivity(), OnItemClickListener {
 
@@ -66,12 +66,11 @@ class SearchActivity : AppCompatActivity(), OnItemClickListener {
     // To get collapseButtonView from toolbar for any click events
     private val toolbarOnLayoutChangeListener: View.OnLayoutChangeListener = object : View.OnLayoutChangeListener {
         override fun onLayoutChange(
-            v: View?, left: Int, top: Int, right: Int, bottom: Int,
-            oldLeft: Int, oldTop: Int, oldRight: Int, oldBottom: Int
+                v: View?, left: Int, top: Int, right: Int, bottom: Int,
+                oldLeft: Int, oldTop: Int, oldRight: Int, oldBottom: Int
         ) {
 
             for (i in 0 until toolbar.childCount) {
-
                 val view: View = toolbar.getChildAt(i)
                 val contentDescription: String? = view.contentDescription as String?
                 if (TextUtils.isEmpty(contentDescription))
@@ -118,7 +117,7 @@ class SearchActivity : AppCompatActivity(), OnItemClickListener {
         actionBar.setDisplayShowTitleEnabled(false)
 
         try {
-            val fieldCollapseIcon: Field = Toolbar::class.java.getDeclaredField("mCollapseIcon")
+            val fieldCollapseIcon: Field = androidx.appcompat.widget.Toolbar::class.java.getDeclaredField("mCollapseIcon")
             fieldCollapseIcon.isAccessible = true
             val collapseIcon: Drawable = fieldCollapseIcon.get(toolbar) as Drawable
             UiUtil.setColorIntToDrawable(config.themeColor, collapseIcon)
@@ -155,6 +154,7 @@ class SearchActivity : AppCompatActivity(), OnItemClickListener {
     }
 
     override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
         Log.v(LOG_TAG, "-> onNewIntent")
 
         if (intent.hasExtra(BUNDLE_SEARCH_URI)) {
@@ -202,8 +202,8 @@ class SearchActivity : AppCompatActivity(), OnItemClickListener {
 
         val intent = Intent()
         searchAdapterDataBundle.putInt(
-            BUNDLE_FIRST_VISIBLE_ITEM_INDEX,
-            linearLayoutManager.findFirstVisibleItemPosition()
+                BUNDLE_FIRST_VISIBLE_ITEM_INDEX,
+                linearLayoutManager.findFirstVisibleItemPosition()
         )
         intent.putExtra(SearchAdapter.DATA_BUNDLE, searchAdapterDataBundle)
         intent.putExtra(BUNDLE_SAVE_SEARCH_QUERY, searchView.query)
@@ -230,8 +230,8 @@ class SearchActivity : AppCompatActivity(), OnItemClickListener {
 
         if (savedInstanceState != null) {
             searchView.setQuery(
-                savedInstanceState!!.getCharSequence(BUNDLE_SAVE_SEARCH_QUERY),
-                false
+                    savedInstanceState!!.getCharSequence(BUNDLE_SAVE_SEARCH_QUERY),
+                    false
             )
             softKeyboardVisible = savedInstanceState!!.getBoolean(BUNDLE_IS_SOFT_KEYBOARD_VISIBLE)
             if (!softKeyboardVisible)
@@ -302,8 +302,8 @@ class SearchActivity : AppCompatActivity(), OnItemClickListener {
     }
 
     override fun onItemClick(
-        adapter: RecyclerView.Adapter<RecyclerView.ViewHolder>,
-        viewHolder: RecyclerView.ViewHolder, position: Int, id: Long
+            adapter: RecyclerView.Adapter<RecyclerView.ViewHolder>,
+            viewHolder: RecyclerView.ViewHolder, position: Int, id: Long
     ) {
 
         if (adapter is SearchAdapter) {
@@ -312,8 +312,8 @@ class SearchActivity : AppCompatActivity(), OnItemClickListener {
 
                 val intent = Intent()
                 searchAdapterDataBundle.putInt(
-                    BUNDLE_FIRST_VISIBLE_ITEM_INDEX,
-                    linearLayoutManager.findFirstVisibleItemPosition()
+                        BUNDLE_FIRST_VISIBLE_ITEM_INDEX,
+                        linearLayoutManager.findFirstVisibleItemPosition()
                 )
                 intent.putExtra(SearchAdapter.DATA_BUNDLE, searchAdapterDataBundle)
                 intent.putExtra(FolioActivity.EXTRA_SEARCH_ITEM, viewHolder.searchLocator as Parcelable)

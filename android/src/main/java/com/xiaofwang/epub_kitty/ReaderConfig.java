@@ -4,8 +4,9 @@ import android.content.Context;
 import android.graphics.Color;
 import android.util.Log;
 
-import com.folioreader.Config;
 import com.folioreader.util.AppUtil;
+
+import folioreader.Config;
 
 public class ReaderConfig {
     private String identifier;

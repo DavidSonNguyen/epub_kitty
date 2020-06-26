@@ -2,7 +2,6 @@ package folioreader.ui.base;
 
 import android.os.AsyncTask;
 import android.util.Log;
-import com.folioreader.model.dictionary.Wikipedia;
 import com.folioreader.util.AppUtil;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,6 +12,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
+
+import folioreader.model.dictionary.Wikipedia;
 
 /**
  * @author gautam chibde on 4/7/17.

@@ -1,10 +1,11 @@
 package folioreader.ui.base;
 
 import android.os.AsyncTask;
-import com.folioreader.model.HighLight;
-import com.folioreader.model.sqlite.HighLightTable;
 
 import java.util.List;
+
+import folioreader.model.HighLight;
+import folioreader.model.sqlite.HighLightTable;
 
 /**
  * Background task to save received highlights.

@@ -13,17 +13,17 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentManager
-import com.folioreader.Config
-import com.folioreader.R
-import com.folioreader.model.event.MediaOverlayHighlightStyleEvent
-import com.folioreader.model.event.MediaOverlaySpeedEvent
 import com.folioreader.ui.view.MediaControllerCallback
-import com.folioreader.ui.view.StyleableTextView
 import com.folioreader.util.AppUtil
-import com.folioreader.util.UiUtil
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.xiaofwang.epub_kitty.R
+import folioreader.Config
+import folioreader.model.event.MediaOverlayHighlightStyleEvent
+import folioreader.model.event.MediaOverlaySpeedEvent
+import folioreader.ui.view.StyleableTextView
+import folioreader.util.UiUtil
 import org.greenrobot.eventbus.EventBus
 
 class MediaControllerFragment : BottomSheetDialogFragment() {

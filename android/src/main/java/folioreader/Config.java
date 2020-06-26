@@ -7,6 +7,9 @@ import android.util.Log;
 import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 import androidx.core.content.ContextCompat;
+
+import com.xiaofwang.epub_kitty.R;
+
 import org.json.JSONObject;
 
 /**

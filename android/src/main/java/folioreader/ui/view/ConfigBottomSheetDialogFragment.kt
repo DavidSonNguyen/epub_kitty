@@ -12,18 +12,18 @@ import android.widget.FrameLayout
 import android.widget.SeekBar
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.folioreader.Config
-import com.folioreader.Constants
-import com.folioreader.R
-import com.folioreader.model.event.ReloadDataEvent
 import com.folioreader.ui.activity.FolioActivity
-import com.folioreader.ui.activity.FolioActivityCallback
 import com.folioreader.ui.fragment.MediaControllerFragment
 import com.folioreader.util.AppUtil
-import com.folioreader.util.UiUtil
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.xiaofwang.epub_kitty.R
+import folioreader.Config
+import folioreader.Constants
+import folioreader.model.event.ReloadDataEvent
+import folioreader.ui.activity.FolioActivityCallback
+import folioreader.util.UiUtil
 import kotlinx.android.synthetic.main.view_config.*
 import org.greenrobot.eventbus.EventBus
 

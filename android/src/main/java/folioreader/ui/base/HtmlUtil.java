@@ -1,9 +1,11 @@
 package folioreader.ui.base;
 
 import android.content.Context;
-import com.folioreader.Config;
-import com.folioreader.Constants;
-import com.folioreader.R;
+
+import com.xiaofwang.epub_kitty.R;
+
+import folioreader.Config;
+import folioreader.Constants;
 
 /**
  * @author gautam chibde on 14/6/17.

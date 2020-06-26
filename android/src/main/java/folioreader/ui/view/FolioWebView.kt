@@ -22,21 +22,21 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.view.GestureDetectorCompat
-import com.folioreader.Config
-import com.folioreader.Constants
-import com.folioreader.R
 import com.folioreader.model.DisplayUnit
-import com.folioreader.model.HighLight
-import com.folioreader.model.HighlightImpl.HighlightStyle
-import com.folioreader.model.sqlite.HighLightTable
 import com.folioreader.ui.activity.FolioActivity
-import com.folioreader.ui.activity.FolioActivityCallback
-import com.folioreader.ui.fragment.DictionaryFragment
 import com.folioreader.ui.fragment.FolioPageFragment
 import com.folioreader.util.AppUtil
-import com.folioreader.util.HighlightUtil
-import com.folioreader.util.UiUtil
+import com.xiaofwang.epub_kitty.R
 import dalvik.system.PathClassLoader
+import folioreader.Config
+import folioreader.Constants
+import folioreader.model.HighLight
+import folioreader.model.HighlightImpl
+import folioreader.model.sqlite.HighLightTable
+import folioreader.ui.activity.FolioActivityCallback
+import folioreader.ui.fragment.DictionaryFragment
+import folioreader.util.HighlightUtil
+import folioreader.util.UiUtil
 import kotlinx.android.synthetic.main.text_selection.view.*
 import org.json.JSONObject
 import org.springframework.util.ReflectionUtils
@@ -266,23 +266,23 @@ class FolioWebView : WebView {
 
         viewTextSelection.yellowHighlight.setOnClickListener {
             Log.v(LOG_TAG, "-> onClick -> yellowHighlight")
-            onHighlightColorItemsClicked(HighlightStyle.Yellow, false)
+            onHighlightColorItemsClicked(HighlightImpl.HighlightStyle.Yellow, false)
         }
         viewTextSelection.greenHighlight.setOnClickListener {
             Log.v(LOG_TAG, "-> onClick -> greenHighlight")
-            onHighlightColorItemsClicked(HighlightStyle.Green, false)
+            onHighlightColorItemsClicked(HighlightImpl.HighlightStyle.Green, false)
         }
         viewTextSelection.blueHighlight.setOnClickListener {
             Log.v(LOG_TAG, "-> onClick -> blueHighlight")
-            onHighlightColorItemsClicked(HighlightStyle.Blue, false)
+            onHighlightColorItemsClicked(HighlightImpl.HighlightStyle.Blue, false)
         }
         viewTextSelection.pinkHighlight.setOnClickListener {
             Log.v(LOG_TAG, "-> onClick -> pinkHighlight")
-            onHighlightColorItemsClicked(HighlightStyle.Pink, false)
+            onHighlightColorItemsClicked(HighlightImpl.HighlightStyle.Pink, false)
         }
         viewTextSelection.underlineHighlight.setOnClickListener {
             Log.v(LOG_TAG, "-> onClick -> underlineHighlight")
-            onHighlightColorItemsClicked(HighlightStyle.Underline, false)
+            onHighlightColorItemsClicked(HighlightImpl.HighlightStyle.Underline, false)
         }
 
         viewTextSelection.deleteHighlight.setOnClickListener {
@@ -339,7 +339,7 @@ class FolioWebView : WebView {
         dictionaryFragment.show(parentFragment.fragmentManager!!, DictionaryFragment::class.java.name)
     }
 
-    private fun onHighlightColorItemsClicked(style: HighlightStyle, isAlreadyCreated: Boolean) {
+    private fun onHighlightColorItemsClicked(style: HighlightImpl.HighlightStyle, isAlreadyCreated: Boolean) {
         parentFragment.highlight(style, isAlreadyCreated)
         dismissPopupWindow()
     }

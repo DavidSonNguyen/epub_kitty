@@ -4,11 +4,11 @@ import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.folioreader.FolioReader
 import com.folioreader.model.locators.SearchItemType
 import com.folioreader.model.locators.SearchLocator
 import com.folioreader.network.R2StreamerApi
 import com.folioreader.ui.adapter.ListViewType
+import folioreader.FolioReader
 import org.readium.r2.shared.Locator
 import retrofit2.Call
 import retrofit2.Callback

@@ -22,28 +22,28 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import com.folioreader.Config
-import com.folioreader.FolioReader
-import com.folioreader.R
-import com.folioreader.mediaoverlay.MediaController
-import com.folioreader.mediaoverlay.MediaControllerCallbacks
-import com.folioreader.model.HighLight
-import com.folioreader.model.HighlightImpl
-import com.folioreader.model.event.*
 import com.folioreader.model.locators.ReadLocator
 import com.folioreader.model.locators.SearchLocator
-import com.folioreader.model.sqlite.HighLightTable
-import com.folioreader.ui.activity.FolioActivityCallback
-import com.folioreader.ui.base.HtmlTask
-import com.folioreader.ui.base.HtmlTaskCallback
-import com.folioreader.ui.base.HtmlUtil
 import com.folioreader.ui.view.FolioWebView
-import com.folioreader.ui.view.LoadingView
-import com.folioreader.ui.view.VerticalSeekbar
 import com.folioreader.ui.view.WebViewPager
 import com.folioreader.util.AppUtil
-import com.folioreader.util.HighlightUtil
-import com.folioreader.util.UiUtil
+import com.xiaofwang.epub_kitty.R
+import folioreader.Config
+import folioreader.FolioReader
+import folioreader.mediaoverlay.MediaController
+import folioreader.mediaoverlay.MediaControllerCallbacks
+import folioreader.model.HighLight
+import folioreader.model.HighlightImpl
+import folioreader.model.event.*
+import folioreader.model.sqlite.HighLightTable
+import folioreader.ui.activity.FolioActivityCallback
+import folioreader.ui.base.HtmlTask
+import folioreader.ui.base.HtmlTaskCallback
+import folioreader.ui.base.HtmlUtil
+import folioreader.ui.view.LoadingView
+import folioreader.ui.view.VerticalSeekbar
+import folioreader.util.HighlightUtil
+import folioreader.util.UiUtil
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -56,7 +56,7 @@ import java.util.regex.Pattern
  * Created by mahavir on 4/2/16.
  */
 class FolioPageFragment : Fragment(),
-    HtmlTaskCallback, MediaControllerCallbacks, FolioWebView.SeekBarListener {
+        HtmlTaskCallback, MediaControllerCallbacks, FolioWebView.SeekBarListener {
 
     companion object {
 

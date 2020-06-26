@@ -1,6 +1,6 @@
 package folioreader.ui.base;
 
-import com.folioreader.model.dictionary.Dictionary;
+import folioreader.model.dictionary.Dictionary;
 
 /**
  * @author gautam chibde on 4/7/17.

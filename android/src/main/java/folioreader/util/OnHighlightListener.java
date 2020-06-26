@@ -1,7 +1,8 @@
 package folioreader.util;
 
-import com.folioreader.model.HighLight;
-import com.folioreader.model.HighlightImpl;
+
+import folioreader.model.HighLight;
+import folioreader.model.HighlightImpl;
 
 /**
  * Interface to convey highlight events.
@@ -15,7 +16,7 @@ public interface OnHighlightListener {
      * This method will be invoked when a highlight is created, deleted or modified.
      *
      * @param highlight meta-data for created highlight {@link HighlightImpl}.
-     * @param type      type of event e.g new,edit or delete {@link com.folioreader.model.HighlightImpl.HighLightAction}.
+     * @param type      type of event e.g new,edit or delete {@link HighlightImpl.HighLightAction}.
      */
     void onHighlight(HighLight highlight, HighLight.HighLightAction type);
 }

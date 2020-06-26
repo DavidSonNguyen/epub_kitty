@@ -10,15 +10,17 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentTransaction;
-import com.folioreader.Config;
-import com.folioreader.Constants;
-import com.folioreader.FolioReader;
-import com.folioreader.R;
-import com.folioreader.ui.fragment.HighlightFragment;
-import com.folioreader.ui.fragment.TableOfContentFragment;
 import com.folioreader.util.AppUtil;
-import com.folioreader.util.UiUtil;
+import com.xiaofwang.epub_kitty.R;
+
 import org.readium.r2.shared.Publication;
+
+import folioreader.Config;
+import folioreader.Constants;
+import folioreader.FolioReader;
+import folioreader.ui.fragment.HighlightFragment;
+import folioreader.ui.fragment.TableOfContentFragment;
+import folioreader.util.UiUtil;
 
 public class ContentHighlightActivity extends AppCompatActivity {
     private boolean mIsNightMode;

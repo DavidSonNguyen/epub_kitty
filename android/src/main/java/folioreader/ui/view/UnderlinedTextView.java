@@ -8,7 +8,8 @@ import android.graphics.Rect;
 import android.text.Layout;
 import android.util.AttributeSet;
 import androidx.appcompat.widget.AppCompatTextView;
-import com.folioreader.R;
+
+import com.xiaofwang.epub_kitty.R;
 
 /**
  * Created by mobisys on 7/4/2016.

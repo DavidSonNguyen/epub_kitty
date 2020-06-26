@@ -1,10 +1,11 @@
 package folioreader.model;
 
-import com.folioreader.util.MultiLevelExpIndListAdapter;
 import org.readium.r2.shared.Link;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import folioreader.util.MultiLevelExpIndListAdapter;
 
 /**
  * Created by Mahavir on 3/10/17.

@@ -12,9 +12,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.folioreader.R
 import com.folioreader.model.locators.SearchItemType
 import com.folioreader.model.locators.SearchLocator
+import com.xiaofwang.epub_kitty.R
 
 class SearchAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

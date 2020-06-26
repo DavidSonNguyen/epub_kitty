@@ -3,8 +3,8 @@ package com.folioreader.model.locators
 import android.os.Parcel
 import android.os.Parcelable
 import org.readium.r2.shared.Locations
-import org.readium.r2.shared.Locator
 import org.readium.r2.shared.LocatorText
+import org.xml.sax.Locator
 
 enum class SearchItemType {
     UNKNOWN_ITEM,
@@ -13,27 +13,27 @@ enum class SearchItemType {
     SEARCH_RESULT_ITEM
 }
 
-class SearchLocator : Locator, Parcelable {
+class SearchLocator : org.readium.r2.shared.Locator, Parcelable {
 
     var primaryContents: String
     var searchItemType: SearchItemType
 
-    constructor() : this(Locator("", 0, "", Locations(), null), "", SearchItemType.UNKNOWN_ITEM)
+    constructor() : this(org.readium.r2.shared.Locator("", 0, "", Locations(), null), "", SearchItemType.UNKNOWN_ITEM)
 
-    constructor(locator: Locator, primaryContents: String, searchItemType: SearchItemType) :
+    constructor(locator: org.readium.r2.shared.Locator, primaryContents: String, searchItemType: SearchItemType) :
             super(locator.href, locator.created, locator.title, locator.locations, locator.text) {
         this.primaryContents = primaryContents
         this.searchItemType = searchItemType
     }
 
     constructor(parcel: Parcel) : this(
-        Locator(
-            parcel.readString()!!,
-            parcel.readLong(),
-            parcel.readString()!!,
-            parcel.readSerializable() as Locations,
-            parcel.readSerializable() as LocatorText?
-        ), parcel.readString()!!, SearchItemType.valueOf(parcel.readString()!!)
+            org.readium.r2.shared.Locator(
+                    parcel.readString()!!,
+                    parcel.readLong(),
+                    parcel.readString()!!,
+                    parcel.readSerializable() as Locations,
+                    parcel.readSerializable() as LocatorText?
+            ), parcel.readString()!!, SearchItemType.valueOf(parcel.readString()!!)
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {

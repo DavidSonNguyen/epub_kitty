@@ -10,12 +10,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-import com.folioreader.Config;
-import com.folioreader.R;
-import com.folioreader.model.TOCLinkWrapper;
-import com.folioreader.util.MultiLevelExpIndListAdapter;
+
+import com.xiaofwang.epub_kitty.R;
 
 import java.util.ArrayList;
+
+import folioreader.Config;
+import folioreader.model.TOCLinkWrapper;
+import folioreader.util.MultiLevelExpIndListAdapter;
 
 /**
  * Created by mahavir on 3/10/17.

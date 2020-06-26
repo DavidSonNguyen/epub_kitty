@@ -29,15 +29,18 @@ import android.widget.TextView;
 import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 import androidx.core.content.ContextCompat;
-import com.folioreader.AppContext;
-import com.folioreader.R;
-import com.folioreader.ui.view.UnderlinedTextView;
+
+import com.xiaofwang.epub_kitty.R;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.lang.ref.SoftReference;
 import java.lang.reflect.Field;
 import java.util.Hashtable;
+
+import folioreader.AppContext;
+import folioreader.ui.view.UnderlinedTextView;
 
 /**
  * Created by mahavir on 3/30/16.

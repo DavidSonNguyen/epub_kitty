@@ -3,7 +3,8 @@ package folioreader.util;
 import android.app.Dialog;
 import android.content.Context;
 import android.widget.TextView;
-import com.folioreader.R;
+
+import com.xiaofwang.epub_kitty.R;
 
 public class ProgressDialog {
 

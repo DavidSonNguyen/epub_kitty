@@ -5,14 +5,7 @@ import android.util.Log;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.folioreader.Config;
-import com.folioreader.FolioReader;
-import com.folioreader.model.HighLight;
 import com.folioreader.model.locators.ReadLocator;
-import com.folioreader.ui.base.OnSaveHighlight;
-import com.folioreader.util.AppUtil;
-import com.folioreader.util.OnHighlightListener;
-import com.folioreader.util.ReadLocatorListener;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,6 +14,11 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import folioreader.FolioReader;
+import folioreader.model.HighLight;
+import folioreader.ui.base.OnSaveHighlight;
+import folioreader.util.OnHighlightListener;
+import folioreader.util.ReadLocatorListener;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.MethodChannel;

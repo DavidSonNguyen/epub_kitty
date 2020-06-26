@@ -7,14 +7,14 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.annotation.JsonPropertyOrder
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.folioreader.util.ObjectMapperSingleton
+import folioreader.util.ObjectMapperSingleton
 import org.readium.r2.shared.Locations
-import org.readium.r2.shared.Locator
 import org.readium.r2.shared.LocatorText
+import org.xml.sax.Locator
 
 @JsonPropertyOrder("bookId", "href", "created", "locations")
 @JsonIgnoreProperties(ignoreUnknown = true)
-open class ReadLocator : Locator, Parcelable {
+open class ReadLocator : org.readium.r2.shared.Locator, Parcelable {
 
     var bookId: String
 
@@ -25,19 +25,19 @@ open class ReadLocator : Locator, Parcelable {
             this(bookId, href, created, "", locations, null)
 
     constructor(
-        bookId: String, href: String, created: Long, title: String, locations: Locations,
-        text: LocatorText?
+            bookId: String, href: String, created: Long, title: String, locations: Locations,
+            text: LocatorText?
     ) : super(href, created, title, locations, text) {
         this.bookId = bookId
     }
 
     constructor(parcel: Parcel) : this(
-        parcel.readString()!!,
-        parcel.readString()!!,
-        parcel.readLong(),
-        parcel.readString()!!,
-        parcel.readSerializable() as Locations,
-        parcel.readSerializable() as LocatorText?
+            parcel.readString()!!,
+            parcel.readString()!!,
+            parcel.readLong(),
+            parcel.readString()!!,
+            parcel.readSerializable() as Locations,
+            parcel.readSerializable() as LocatorText?
     )
 
     override fun writeToParcel(dest: Parcel?, flags: Int) {
@@ -58,9 +58,9 @@ open class ReadLocator : Locator, Parcelable {
         fun fromJson(json: String?): ReadLocator? {
             return try {
                 ObjectMapperSingleton.getObjectMapper()
-                    .reader()
-                    .forType(ReadLocator::class.java)
-                    .readValue(json)
+                        .reader()
+                        .forType(ReadLocator::class.java)
+                        .readValue(json)
             } catch (e: Exception) {
                 Log.e(LOG_TAG, "-> ", e)
                 null

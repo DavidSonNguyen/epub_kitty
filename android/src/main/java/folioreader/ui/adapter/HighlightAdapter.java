@@ -9,14 +9,15 @@ import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-import com.folioreader.Config;
-import com.folioreader.R;
-import com.folioreader.model.HighlightImpl;
-import com.folioreader.ui.view.UnderlinedTextView;
 import com.folioreader.util.AppUtil;
-import com.folioreader.util.UiUtil;
+import com.xiaofwang.epub_kitty.R;
 
 import java.util.List;
+
+import folioreader.Config;
+import folioreader.model.HighlightImpl;
+import folioreader.ui.view.UnderlinedTextView;
+import folioreader.util.UiUtil;
 
 /**
  * @author gautam chibde on 16/6/17.

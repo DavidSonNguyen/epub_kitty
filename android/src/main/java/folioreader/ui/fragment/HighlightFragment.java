@@ -17,18 +17,20 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.folioreader.Config;
-import com.folioreader.Constants;
-import com.folioreader.FolioReader;
-import com.folioreader.R;
-import com.folioreader.model.HighLight;
-import com.folioreader.model.HighlightImpl;
-import com.folioreader.model.event.UpdateHighlightEvent;
-import com.folioreader.model.sqlite.HighLightTable;
-import com.folioreader.ui.adapter.HighlightAdapter;
 import com.folioreader.util.AppUtil;
-import com.folioreader.util.HighlightUtil;
+import com.xiaofwang.epub_kitty.R;
+
 import org.greenrobot.eventbus.EventBus;
+
+import folioreader.Config;
+import folioreader.Constants;
+import folioreader.FolioReader;
+import folioreader.model.HighLight;
+import folioreader.model.HighlightImpl;
+import folioreader.model.event.UpdateHighlightEvent;
+import folioreader.model.sqlite.HighLightTable;
+import folioreader.ui.adapter.HighlightAdapter;
+import folioreader.util.HighlightUtil;
 
 public class HighlightFragment extends Fragment implements HighlightAdapter.HighLightAdapterCallback {
     private static final String HIGHLIGHT_ITEM = "highlight_item";

@@ -9,7 +9,7 @@ import android.webkit.JavascriptInterface
 import androidx.core.view.GestureDetectorCompat
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.folioreader.R
+import com.xiaofwang.epub_kitty.R
 
 class WebViewPager : ViewPager {
 

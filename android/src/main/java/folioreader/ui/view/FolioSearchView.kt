@@ -12,9 +12,9 @@ import android.widget.LinearLayout
 import androidx.appcompat.widget.SearchView
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.ColorUtils
-import com.folioreader.Config
-import com.folioreader.R
-import com.folioreader.util.UiUtil
+import com.xiaofwang.epub_kitty.R
+import folioreader.Config
+import folioreader.util.UiUtil
 
 class FolioSearchView : SearchView {
 

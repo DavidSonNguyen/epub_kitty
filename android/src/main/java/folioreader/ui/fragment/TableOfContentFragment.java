@@ -13,18 +13,25 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.folioreader.Config;
-import com.folioreader.R;
-import com.folioreader.model.TOCLinkWrapper;
-import com.folioreader.ui.adapter.TOCAdapter;
+
 import com.folioreader.util.AppUtil;
+import com.xiaofwang.epub_kitty.R;
+
+import folioreader.Config;
+import folioreader.model.TOCLinkWrapper;
+import folioreader.ui.adapter.TOCAdapter;
 import org.readium.r2.shared.Link;
 import org.readium.r2.shared.Publication;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.folioreader.Constants.*;
+import static folioreader.Constants.BOOK_TITLE;
+import static folioreader.Constants.CHAPTER_SELECTED;
+import static folioreader.Constants.PUBLICATION;
+import static folioreader.Constants.SELECTED_CHAPTER_POSITION;
+import static folioreader.Constants.TYPE;
+
 
 public class TableOfContentFragment extends Fragment implements TOCAdapter.TOCCallback {
     private TOCAdapter mTOCAdapter;

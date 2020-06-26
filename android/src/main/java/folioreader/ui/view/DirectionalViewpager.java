@@ -30,14 +30,16 @@ import androidx.core.view.accessibility.AccessibilityRecordCompat;
 import androidx.core.widget.EdgeEffectCompat;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import com.folioreader.Config;
-import com.folioreader.R;
+
+import com.xiaofwang.epub_kitty.R;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+import folioreader.Config;
 
 public class DirectionalViewpager extends ViewGroup {
     private static final String TAG = "ViewPager";

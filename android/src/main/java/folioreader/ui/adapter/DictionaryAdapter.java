@@ -11,14 +11,19 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-import com.folioreader.Config;
-import com.folioreader.R;
-import com.folioreader.model.dictionary.*;
-import com.folioreader.ui.base.DictionaryCallBack;
 import com.folioreader.util.AppUtil;
+import com.xiaofwang.epub_kitty.R;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import folioreader.Config;
+import folioreader.model.dictionary.Audio;
+import folioreader.model.dictionary.DictionaryResults;
+import folioreader.model.dictionary.Example;
+import folioreader.model.dictionary.Pronunciations;
+import folioreader.model.dictionary.Senses;
+import folioreader.ui.base.DictionaryCallBack;
 
 /**
  * @author gautam chibde on 4/7/17.

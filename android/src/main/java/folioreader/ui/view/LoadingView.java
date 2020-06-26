@@ -9,10 +9,11 @@ import android.webkit.JavascriptInterface;
 import android.widget.ProgressBar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
-import com.folioreader.Config;
-import com.folioreader.R;
 import com.folioreader.util.AppUtil;
-import com.folioreader.util.UiUtil;
+import com.xiaofwang.epub_kitty.R;
+
+import folioreader.Config;
+import folioreader.util.UiUtil;
 
 @SuppressWarnings("PMD.AvoidDuplicateLiterals")
 public class LoadingView extends ConstraintLayout {

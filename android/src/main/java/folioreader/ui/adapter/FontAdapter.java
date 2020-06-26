@@ -20,10 +20,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
-import com.folioreader.Font;
-import com.folioreader.R;
+
+import com.xiaofwang.epub_kitty.R;
 
 import java.util.ArrayList;
+
+import folioreader.Font;
 
 public class FontAdapter extends RecyclerView.Adapter<FontAdapter.ViewHolder> {
 

@@ -5,8 +5,6 @@ import android.os.Build;
 import android.util.Log;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.folioreader.model.dictionary.Dictionary;
-import com.folioreader.network.TLSSocketFactory;
 import com.folioreader.util.AppUtil;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -14,6 +12,9 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
+
+import folioreader.model.dictionary.Dictionary;
+import folioreader.network.TLSSocketFactory;
 
 /**
  * @author gautam chibde on 4/7/17.

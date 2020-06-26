@@ -3,8 +3,10 @@ package folioreader.ui.view;
 import android.content.Context;
 import android.util.AttributeSet;
 import androidx.appcompat.widget.AppCompatTextView;
-import com.folioreader.R;
-import com.folioreader.util.UiUtil;
+
+import com.xiaofwang.epub_kitty.R;
+
+import folioreader.util.UiUtil;
 
 public class StyleableTextView extends AppCompatTextView {
 

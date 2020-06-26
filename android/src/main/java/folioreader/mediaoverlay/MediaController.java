@@ -8,11 +8,6 @@ import android.os.Handler;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
-import com.folioreader.Constants;
-import com.folioreader.model.event.MediaOverlayPlayPauseEvent;
-import com.folioreader.model.event.MediaOverlaySpeedEvent;
-import com.folioreader.model.media_overlay.OverlayItems;
-import com.folioreader.util.UiUtil;
 import org.readium.r2.shared.Clip;
 import org.readium.r2.shared.MediaOverlays;
 
@@ -21,6 +16,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+
+import folioreader.Constants;
+import folioreader.model.event.MediaOverlayPlayPauseEvent;
+import folioreader.model.event.MediaOverlaySpeedEvent;
+import folioreader.model.media_overlay.OverlayItems;
+import folioreader.util.UiUtil;
 
 /**
  * @author gautam chibde on 21/6/17.
